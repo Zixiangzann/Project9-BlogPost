@@ -1,0 +1,21 @@
+Project - Create Rest Api's for blog post 
+
+similar to movie app REST api's created in the session 
+source code available here - https://github.com/jayeshchoudhary/rest-api-movie-app-eduonix/tree/main
+
+blog post data format
+
+{
+    id: 1,
+    title: How to learn react hooks in 10 mins,
+    datePosted: 11/11/2020,
+    views: 2000
+}
+
+Perform all the CRUD operations in the api
+eg.
+1. Show all blogs (GET: /blogs)
+2. Show single blog with id (GET: /blogs/:id)
+3. Edit single blog with id (PUT: /blogs/:id)
+4. Delete single blog with id (DELETE: /blogs/:id)
+5. Create new blog (POST: /blogs)
